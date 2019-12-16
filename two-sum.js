@@ -18,5 +18,11 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-
+  for (var numsIndexOne = 0; numsIndexOne < nums.length; numsIndexOne++) {
+    for (var numsIndexTwo = numsIndexOne + 1; numsIndexTwo < nums.length; numsIndexTwo++) {
+      if (nums[numsIndexOne] + nums[numsIndexTwo] === target) {
+        return [numsIndexOne, numsIndexTwo];
+      }
+    }
+  }
 };
