@@ -1,2 +1,2 @@
 # practice-problems
-Daily coding challenges.
+JavaScript coding challenges.
